@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(232, 232, 232);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid;
+}
+.left, .right {
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.left-svg {
+    width: 50px;
+    height: 50px;
+}
+.incoming-svg {
+    width: 50px;
+    height: 50px;
+}
+.outgoing-svg {
+    width: 50px;
+    height: 50px;
+}
+.drafts-svg {
+    width: 50px;
+    height: 50px;
+}
+.spam-svg {
+    width: 50px;
+    height: 50px;
+}
+.main {
+    display: flex;
+    margin: 30px;
+}
+.main-left {
+    width: 30%;
+    padding: 20px;
+}
+.incoming {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+.incoming:hover {
+    background-color: rgba(145, 238, 248, 0.355);
+}
+.outgoing {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+.outgoing:hover {
+    background-color: rgba(145, 238, 248, 0.355);
+}
+.drafts {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+.drafts:hover {
+    background-color: rgba(145, 238, 248, 0.355);
+}
+.spam {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+.spam:hover {
+    background-color: rgba(145, 238, 248, 0.355);
+}
+.type-mail {
+    display: flex;
+}
+.svg-white-star, .svg-pin {
+    width: 20px;
+    height: 20px;
+}
+.main-right {
+    width: 70%;
+    padding: 20px;
+}
+.right-one, .right-two, .right-three, .right-four, .right-five, .right-six, .right-seven, .right-eight {
+    display: flex;
+    border-bottom: solid;
+}
+.right-star {
+    width: 20px;
+}
+.right-name {
+    width: 100px;
+}
+.right-subject {
+    width: 100px;
+}
+.right-letter {
+    width: 200px;
+    color: rgb(145, 145, 145);
+}
+.right-pin {
+    width: 20px;
+}
+.right-date {
+    width: 100px;
+}
+.group {
+    display: flex;
+    justify-content: space-around;
+}

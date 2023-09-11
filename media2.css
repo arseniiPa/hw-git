@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+    .second {
+        position: relative;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .one-img, .second-photo-one {
+        width: 280px;
+        height: 250px;
+        border-radius: 15px;
+    }
+    .two-img, .second-photo-two {
+        width: 280px;
+        height: 280px;
+        border-radius: 15px;
+    }
+    .first, .third {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .second {
+        flex-direction: column;
+        align-items: center;
+    }
+}

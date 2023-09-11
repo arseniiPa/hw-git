@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(228, 228, 228);
+}
+.first, .third {
+    width: 60%;
+}
+.second {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.one-img, .second-photo-one {
+    width: 300px;
+    height: 270px;
+    border-radius: 15px;
+}
+.two-img, .second-photo-two {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.second-photo-one {
+    position: relative;
+    margin: 10px;
+}
+.one-img-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    background-color: rgb(25, 64, 130);
+    border-radius: 0 0 15px 15px;
+    color: whitesmoke;
+}
+.img-text {
+    margin-right: 15px;
+}
+.second-photo-two {
+    position: relative;
+    margin: 10px;
+}
+.two-img-text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    background-color: rgb(25, 64, 130);
+    border-radius: 0 0 15px 15px;
+    color: whitesmoke;
+}
+.img-text {
+    margin-right: 15px;
+}

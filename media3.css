@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px)  {
+    .group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .right-name {
+        width: auto;
+    }
+    .right-subject {
+        width: auto;
+    }
+    .right-letter {
+        width: auto;
+    }
+    .subject-name, .name-text, .letter-text {
+        margin: 0;
+    }
+    .incoming:hover, .outgoing:hover, .drafts:hover, .spam:hover {
+        background-color: rgba(247, 74, 143, 0.355);
+    }
+    .right-date, .right-pin {
+        position: absolute;
+        right: 0;
+    }
+}
+@media screen and (max-width: 550px)  {
+    .type-mail {
+        display: none;
+    }
+}
